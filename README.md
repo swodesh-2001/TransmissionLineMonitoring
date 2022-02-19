@@ -1,6 +1,7 @@
 # TransmissionLineMonitoring
 
 #CREATING DATASETS
+
 To create an Transmission line monitoring AI using UAV, we first need to collect datasets.
 To obtain datasets of transmission line,
 We manually labeled the images of suspesion disc, vegetation stuck at conductors and so on.
