@@ -48,12 +48,19 @@ Use similar format , found inside coco.yaml give the path of train and test data
 
 # EXAMPLE
 
+
 DATA.YAML
+
 ---------------------------------------------------------------------------
+
 train: C:/Users/Acer/Desktop/mydatasets/train
+
 val: C:/Users/Acer/Desktop/mydatasets/test
+
 nc: 3
+
 names: ['suspension_disc','vegetation_short','transformer']
+
 ----------------------------------------------------------------------------
 
 
