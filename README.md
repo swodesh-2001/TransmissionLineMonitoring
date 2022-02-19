@@ -45,6 +45,19 @@ inside yolov5 create data.yaml  , remember the extension should be YAML
 Now to train , change the nc which means number of classes, and in the list add the classes,
 Use similar format , found inside coco.yaml give the path of train and test datasets then train. And ENJOY
 
+
+# EXAMPLE
+
+DATA.YAML
+---------------------------------------------------------------------------
+train: C:/Users/Acer/Desktop/mydatasets/train
+val: C:/Users/Acer/Desktop/mydatasets/test
+nc: 3
+names: ['suspension_disc','vegetation_short','transformer']
+----------------------------------------------------------------------------
+
+
+
 THIS IS OUR TRAINED AI WHICH CAN DETECT SUSPENSION DISC, VEGETATION SHORT, AND TRANSFORMER
 
 LATER WE WILL CONTINUE THIS PROJECT TO CREATE A CNN NETWORK TO CLASSIFY WHETHER THE DETECTED IMAGE SECTION IS FAULTY OR NOT.
