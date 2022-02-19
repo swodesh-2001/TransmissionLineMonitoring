@@ -25,11 +25,11 @@ cmd code : git clone https://github.com/ultralytics/yolov5
 
 Now before jumping into training, we have to create a virtual environment so it doesn't clutter our PC with many versions of the same module
 
-**To create a virtual env 
+**To create a virtual env **
 
 Use the cmd code : python -m venv VirtualEnvName
 
-**To activate the environment
+**To activate the environment**
 
 Cmd code : .\VirtualEnvName\scripts\activate
 
@@ -39,10 +39,21 @@ Then we have to install the neccessary modules which can be done by requirements
 
 CODE : pip install -r requirements.txt
 
-#TRAINING IN YOLO V5
+# TRAINING IN YOLO V5
 
 inside yolov5 create data.yaml  , remember the extension should be YAML
-Now to train , 
+Now to train , change the nc which means number of classes, and in the list add the classes,
+Use similar format , found inside coco.yaml give the path of train and test datasets then train. And ENJOY
+
+THIS IS OUR TRAINED AI WHICH CAN DETECT SUSPENSION DISC, VEGETATION SHORT, AND TRANSFORMER
+
+LATER WE WILL CONTINUE THIS PROJECT TO CREATE A CNN NETWORK TO CLASSIFY WHETHER THE DETECTED IMAGE SECTION IS FAULTY OR NOT.
+STAY TUNED!!!!!
+
+![val_batch0_labels](https://user-images.githubusercontent.com/70265297/154807171-60502699-b2d9-44eb-9157-111d3ef88375.jpg)
+
+![train_batch2](https://user-images.githubusercontent.com/70265297/154807174-b830064e-d6e9-4e25-afe8-19170a4b936e.jpg)
+
 
 
 
