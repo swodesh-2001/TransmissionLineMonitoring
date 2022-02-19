@@ -25,7 +25,7 @@ cmd code : git clone https://github.com/ultralytics/yolov5
 
 Now before jumping into training, we have to create a virtual environment so it doesn't clutter our PC with many versions of the same module
 
-**To create a virtual env **
+**To create a virtual env**
 
 Use the cmd code : python -m venv VirtualEnvName
 
