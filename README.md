@@ -6,6 +6,9 @@ To obtain datasets of transmission line,
 We manually labeled the images of suspesion disc, vegetation stuck at conductors and so on.
 To label the images and get annotation We used makesense.ai which is one of the best and fastest AI annotation website out there.
 
+![sun-setting-silhouette-electricity-pylons](https://user-images.githubusercontent.com/70265297/154806515-833a1591-1f0a-46dd-8239-2ff190bd772b.jpg)
+
+
 #Splitting datasets
 Once we get our datasets we have to split our datasets into train and test which we will require when training our model.
 
@@ -30,4 +33,18 @@ Use the cmd code : python -m venv VirtualEnvName
 Cmd code : .\VirtualEnvName\scripts\activate
 
 Now once the virtual Environment is set up , go inside the yolov5 path , cmd code : cd PATH_TO_YOLOV5, example cd C:\desktop\YOLOv5
+
+Then we have to install the neccessary modules which can be done by requirements.txt given in YOLOv5
+
+CODE : pip install -r requirements.txt
+
+#TRAINING IN YOLO V5
+
+inside yolov5 create data.yaml  , remember the extension should be YAML
+Now to train , 
+
+
+
+
+
 
